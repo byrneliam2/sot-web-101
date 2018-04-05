@@ -1,24 +1,41 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: cornflowerblue;
+    text-align: center;
+    background-color: #48008b;
+    color: #ffffff;
 }
 
-.purple {
-  color: #aa00ff;
-  line-height: 3em;
+.bordered {
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 5em 10em;
+    font-size: 18pt;
+}
+
+#results-area {
+    font-size: 24pt;
+}
+
+#question-display {
+    margin-bottom: 2em;
 }
 
 /* #answer-display will have black text on a white background.
    Hovering the mouse over it will reveal the text */
 #answer-display {
-  background-color: #000000;
+    background-color: #48008b;
+    color: #48008b;
+    margin-bottom: 2em;
 }
 
 #answer-display:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #click-me {
-    background-color: #ff0000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #48008b;
+    font-size: 12pt;
+    padding: 1em;
+    margin: 3em;
 }

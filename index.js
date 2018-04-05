@@ -5,15 +5,13 @@
 
 // $(...) will run the function you give it when the page is loaded & ready
 $(function() {
-  console.log("page loaded...");
-
   $("#click-me").click(function() {
       fetchRandomTriviaQuestion(displayQuestionAndAnswer)
   });
 });
 
 function displayQuestionAndAnswer(question, answer) {
-  $("#results-area").text("True or false?");
+  $("#results-area").text("TRUE OR FALSE?");
   $("#question-display").text(question);
   $("#answer-display").text("Answer: " + answer);
 }
