@@ -1,5 +1,4 @@
 .purple {
-  /* TODO: Add some style definitions for the purple class in here... */
   color: #aa00ff
 }
 
@@ -11,4 +10,9 @@
 
 #answer-display:hover {
   color: #fff;
+}
+
+#click-me {
+    background-color: #ff0000;
+    color: #ffffff;
 }
