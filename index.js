@@ -4,9 +4,9 @@
  */
 
 // $(...) will run the function you give it when the page is loaded & ready
-$(function() {
-  $("#click-me").click(function() {
-      fetchRandomTriviaQuestion(displayQuestionAndAnswer)
+$(function () {
+  $("#click-me").click(function () {
+    fetchRandomTriviaQuestion(displayQuestionAndAnswer)
   });
 });
 
@@ -27,7 +27,7 @@ function fetchRandomTriviaQuestion(callback) {
 
   // $.get is asynchronous, so we need to define a
   // handler for when the request is complete
-  promise.done(function(data) {
+  promise.done(function (data) {
     // Check the console when you have the API call working in order
     // to inspect the json object that we recieve
     console.log(data);
